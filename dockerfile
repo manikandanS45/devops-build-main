@@ -1,6 +1,6 @@
 FROM nginx
 
-RUN apt update
+RUN apt upgrade
 
 COPY . /usr/share/nginx/html
 
